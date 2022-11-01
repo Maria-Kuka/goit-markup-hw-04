@@ -166,15 +166,18 @@ height: 12px;
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 
 }
 
 /* Hero */
 .hero {
+    max-width: 1600;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-top: 0;
-    background: rgba(47, 48, 58, 0.4);
+    /* background: rgba(47, 48, 58, 0.4); */
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
@@ -193,6 +196,7 @@ height: 12px;
     background-size: auto;
     background-position: center;
     background-color: #c4c4c4;;
+    background-repeat: no-repeat;
 }
 
 .hero-name {
@@ -400,20 +404,23 @@ height: 12px;
     align-items: center;
     justify-content: center;
 }
-.team-icons:hover{
+
+.team-icons:hover, .team-icons:focus{
     background-color: #2196F3;
+    border-radius: 50%; 
 }
+
 .team-soc-link{
     width: 44px;
     height: 44px;
-
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .team-soc-link:hover .socials-icon,
-.team-soc-link:focus, .socials-icon{
-    fill: #FFFFFF;
+.team-soc-link:focus .socials-icon{
+    fill: #ffffff;
 }
 .socials-icon {
     border: 0;
@@ -481,6 +488,8 @@ height: 12px;
     background-color: #2F303A;
     display: flex;
     align-items: baseline;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .cont-bottom {
@@ -587,15 +596,8 @@ height: 12px;
 background-color: #2196F3;
 }
 
-.footer-soc{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* .footer-soc{ */
+
 .footer-soc-link{
     width: 44px;
     height: 44px;
@@ -605,7 +607,7 @@ background-color: #2196F3;
     align-items: center;
     justify-content: center;
 }
-.footer-soc-link:hover{
+.footer-soc-link:hover, .footer-soc-link:focus{
     background-color: #2196F3;
 }
 /* Портфоліо */
