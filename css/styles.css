@@ -17,8 +17,7 @@ margin: 0;
 /* Container */
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -141,9 +140,11 @@ ul {
 width: 16px;
 height: 12px;
 }
+
 .mobile{
     width: 10px;
     height: 16px;
+
 
 }
 .auth-nav-link {
@@ -155,6 +156,7 @@ height: 12px;
     letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -173,7 +175,7 @@ height: 12px;
 
 /* Hero */
 .hero {
-    max-width: 1600;
+    max-width: 1600 px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-top: 0;
@@ -188,7 +190,7 @@ height: 12px;
 }
 
 .overlay {
-    max-width: 1600;
+    max-width: 1600 px;
     height: 600;
     margin-left: auto;
     margin-right: auto;
@@ -429,6 +431,9 @@ height: 12px;
     fill: #AFB1B8;
 }
 
+.team-soc-link:focus{
+    background-color: #2196F3;
+}
 
 .client {
     font-weight: 700;
